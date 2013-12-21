@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MAImagePickerController.h"
+
 @interface ViewController : UIViewController
 
 @end
