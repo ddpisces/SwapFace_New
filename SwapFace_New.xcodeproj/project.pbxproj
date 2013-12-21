@@ -21,6 +21,7 @@
 		B88AA6691865D41C006ED616 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88AA64B1865D41C006ED616 /* UIKit.framework */; };
 		B88AA6711865D41C006ED616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B88AA66F1865D41C006ED616 /* InfoPlist.strings */; };
 		B88AA6731865D41C006ED616 /* SwapFace_NewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B88AA6721865D41C006ED616 /* SwapFace_NewTests.m */; };
+		B89AAD821865D5DC00F14607 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89AAD811865D5DC00F14607 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B88AA66E1865D41C006ED616 /* SwapFace_NewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwapFace_NewTests-Info.plist"; sourceTree = "<group>"; };
 		B88AA6701865D41C006ED616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B88AA6721865D41C006ED616 /* SwapFace_NewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapFace_NewTests.m; sourceTree = "<group>"; };
+		B89AAD811865D5DC00F14607 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			files = (
 				B88AA64A1865D41C006ED616 /* CoreGraphics.framework in Frameworks */,
 				B88AA64C1865D41C006ED616 /* UIKit.framework in Frameworks */,
+				B89AAD821865D5DC00F14607 /* opencv2.framework in Frameworks */,
 				B88AA6481865D41C006ED616 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +104,7 @@
 		B88AA6461865D41C006ED616 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B89AAD811865D5DC00F14607 /* opencv2.framework */,
 				B88AA6471865D41C006ED616 /* Foundation.framework */,
 				B88AA6491865D41C006ED616 /* CoreGraphics.framework */,
 				B88AA64B1865D41C006ED616 /* UIKit.framework */,
@@ -378,6 +382,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/peng/source/SwapFace_New,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SwapFace_New/SwapFace_New-Prefix.pch";
 				INFOPLIST_FILE = "SwapFace_New/SwapFace_New-Info.plist";
@@ -391,6 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/peng/source/SwapFace_New,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SwapFace_New/SwapFace_New-Prefix.pch";
 				INFOPLIST_FILE = "SwapFace_New/SwapFace_New-Info.plist";
@@ -460,6 +472,7 @@
 				B88AA6781865D41C006ED616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B88AA6791865D41C006ED616 /* Build configuration list for PBXNativeTarget "SwapFace_NewTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				B88AA67B1865D41C006ED616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
